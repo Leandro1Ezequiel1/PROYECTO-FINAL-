@@ -1,0 +1,29 @@
+.footer_logo-wp{
+    width: 100px;
+   height: 100px;
+}
+.footer_logo-face{
+    width: 100px;
+    height: 100px;
+}
+.footer_logo-insta{
+    height: 100px;
+    width: 100px;
+}
+.iconos-redes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+        background-color:  #7fffd4;
+}
+.footer {
+    text-align: center;
+    background-color: #9898b9;
+    height: 182px;
+    position: relative;
+    top: 6px;
+}
+.footer_h3{
+    background-color:#9898b9;
+}

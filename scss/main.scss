@@ -1,0 +1,27 @@
+//npm run watch-css
+// variables
+@import'./variables/colores';
+@import'./variables/tamanios';
+
+// secciones
+@import'./secciones/navbar';
+@import'./secciones/header';
+@import'./secciones/body';
+@import'./secciones/footer';
+@import'./secciones/galerias';
+@import'./secciones/cards';
+@import'./secciones/form';
+// medias queries
+@import'./secciones/media-queries';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+

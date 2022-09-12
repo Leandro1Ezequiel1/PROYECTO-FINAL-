@@ -1,0 +1,23 @@
+.section_img{
+    width: 100%;
+    height: 100%;
+    margin: 4px;
+    padding: 9px;
+    background-color: #ced4da;
+}
+
+.galeria{
+width: 100%;
+background-color: $galeria;
+}
+.section_img:hover{
+border: 5px solid aquamarine;
+}
+.galeria-productos {
+display: flex;
+flex-wrap: wrap;
+align-content: stretch;
+justify-content: space-around;
+align-items: center;
+background-color: honeydew;
+}

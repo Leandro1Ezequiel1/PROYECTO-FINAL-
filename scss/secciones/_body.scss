@@ -1,0 +1,11 @@
+.body_li{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        background-color:$bodyli;
+        color: black;
+    }
+
+.body {
+    background-color:$body;
+}

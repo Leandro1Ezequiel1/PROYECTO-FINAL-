@@ -1,0 +1,16 @@
+form.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+iframe.formulario__iframe {
+    width: 100%;
+}
+.formulario_h4{
+    text-align: center;
+    background-color: whitesmoke;
+
+}
