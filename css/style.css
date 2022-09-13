@@ -88,9 +88,13 @@ form.formulario {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: gainsboro; }
+  background-color: gainsboro;
+  border-radius: 3px solid black; }
 
-iframe.formulario__iframe {
+form.formulario:hover {
+  border-radius: 3px solid white; }
+
+iframe.formulario_iframe {
   width: 100%; }
 
 .formulario_h4 {
@@ -121,3 +125,9 @@ iframe.formulario__iframe {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+.accordion-button {
+  background-color: darkgray !important; }
+
+.accordion-body {
+  background-color: cadetblue !important; }
