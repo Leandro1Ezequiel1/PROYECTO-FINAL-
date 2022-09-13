@@ -5,8 +5,12 @@ form.formulario {
     justify-content: center;
     align-items: center;
     background-color: gainsboro;
+    border-radius: 3px solid black;
 }
-iframe.formulario__iframe {
+form.formulario:hover{
+    border-radius: 3px solid white  ;
+}
+iframe.formulario_iframe {
     width: 100%;
 }
 .formulario_h4{
