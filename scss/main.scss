@@ -11,6 +11,7 @@
 @import'./secciones/galerias';
 @import'./secciones/cards';
 @import'./secciones/form';
+@import'./secciones/carrusel';
 // medias queries
 @import'./secciones/media-queries';
 
@@ -19,12 +20,5 @@
     margin: 0;
     box-sizing: border-box;
 }
-.accordion-button {
-    background-color: darkgray!important;}
-
-.accordion-body {
-    background-color: cadetblue!important;}
-
-
 
 

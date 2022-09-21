@@ -1,13 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: center;
-  background-color: rgb(240, 248, 255) !important;
+  background-color: #f0f8ff !important;
 }
 
 .header__container-fluid {
@@ -24,8 +18,12 @@
   display: flex;
   list-style: none;
   justify-content: space-around;
-  background-color: azure;
+  background-color: color azure;
   color: black;
+}
+
+.body {
+  background-color: color lavender !important;
 }
 
 .footer_logo-wp {
@@ -48,13 +46,19 @@
   justify-content: space-evenly;
   flex-wrap: nowrap;
   flex-direction: row;
-  background-color: lavender;
+  background-color: #7fffd4;
 }
 
 .footer {
   text-align: center;
-  background-color: aquamarine;
+  background-color: #9898b9;
   height: 182px;
+  position: relative;
+  top: 6px;
+}
+
+.footer_h3 {
+  background-color: #9898b9;
 }
 
 .section_img {
@@ -65,46 +69,96 @@
   background-color: #ced4da;
 }
 
-.body {
-  background-color: lavender !important;
-}
-
 .galeria {
   width: 100%;
-  background-color: lavender;
+  background-color: Color #e6e6fa;
 }
 
 .section_img:hover {
   border: 5px solid aquamarine;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
+.galeria-productos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+  background-color: honeydew;
 }
 
-.card1 {
-  grid-area: card1;
+.card-img-top {
+  width: 285px;
+  height: 250px;
 }
 
-.card2 {
-  grid-area: card2;
+.card {
+  background-color: color #ced4da;
 }
 
-.card3 {
-  grid-area: card3;
+.card:hover {
+  border: 2px solid black;
 }
 
-.card4 {
-  grid-area: card4;
+form.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 3px solid black;
 }
 
-.card5 {
-  grid-area: card5;
+form.formulario:hover {
+  border-radius: 3px solid white;
 }
 
-.card6 {
-  grid-area: card6;
+iframe.formulario_iframe {
+  width: 100%;
+}
+
+.formulario_h4 {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.w-100 {
+  width: 80% !important;
+  position: relative;
+  left: 10%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 80% !important;
+  left: 8%;
+}
+
+@media (min-width: 320px) {
+  .body_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .body_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */

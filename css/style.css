@@ -126,8 +126,5 @@ iframe.formulario_iframe {
   margin: 0;
   box-sizing: border-box; }
 
-.accordion-button {
-  background-color: darkgray !important; }
-
-.accordion-body {
+.accordion-item {
   background-color: cadetblue !important; }
