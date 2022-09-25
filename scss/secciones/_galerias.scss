@@ -3,15 +3,15 @@
     height: 100%;
     margin: 4px;
     padding: 9px;
-    background-color: #ced4da;
+    background-color: #cbcbcb;
 }
 
 .galeria{
 width: 100%;
-background-color: $galeria;
+background-color: #cbcbcb;
 }
 .section_img:hover{
-border: 5px solid aquamarine;
+    border: 1px solid black;
 }
 .galeria-productos {
 display: flex;

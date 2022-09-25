@@ -3,8 +3,16 @@
     height: 250px;
 }
 .card{
-    background-color:$cards;
+    background-color: #7eb5ec;
+    width: 287px;
+    height: 460px;
+    margin-top: 10px;
+    background-color: aquamarine!important;
 }
 .card:hover{
-    border:2px solid black;
+    border: 1px solid black;
+}
+.row{
+    overflow: hidden;
+
 }

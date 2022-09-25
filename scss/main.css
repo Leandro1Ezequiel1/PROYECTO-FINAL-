@@ -66,16 +66,16 @@
   height: 100%;
   margin: 4px;
   padding: 9px;
-  background-color: #ced4da;
+  background-color: #cbcbcb;
 }
 
 .galeria {
   width: 100%;
-  background-color: Color #e6e6fa;
+  background-color: #cbcbcb;
 }
 
 .section_img:hover {
-  border: 5px solid aquamarine;
+  border: 1px solid black;
 }
 
 .galeria-productos {
@@ -93,11 +93,19 @@
 }
 
 .card {
-  background-color: color #ced4da;
+  background-color: #7eb5ec;
+  width: 287px;
+  height: 460px;
+  margin-top: 10px;
+  background-color: aquamarine !important;
 }
 
 .card:hover {
-  border: 2px solid black;
+  border: 1px solid black;
+}
+
+.row {
+  overflow: hidden;
 }
 
 form.formulario {
@@ -135,6 +143,19 @@ iframe.formulario_iframe {
   left: 8%;
 }
 
+.carousel-control-prev {
+  left: 135px;
+}
+
+.carousel-control-next {
+  right: 187px;
+}
+
+.carousel {
+  position: relative;
+  background-color: lightblue;
+}
+
 @media (min-width: 320px) {
   .body_li {
     display: flex;
@@ -144,6 +165,9 @@ iframe.formulario_iframe {
     color: black;
     flex-direction: column;
     align-items: center;
+  }
+  .row {
+    margin: 0 !important;
   }
 }
 @media (min-width: 768px) {

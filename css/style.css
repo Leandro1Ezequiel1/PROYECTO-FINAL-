@@ -55,14 +55,14 @@
   height: 100%;
   margin: 4px;
   padding: 9px;
-  background-color: #ced4da; }
+  background-color: #cbcbcb; }
 
 .galeria {
   width: 100%;
-  background-color: Color #e6e6fa; }
+  background-color: #cbcbcb; }
 
 .section_img:hover {
-  border: 5px solid aquamarine; }
+  border: 1px solid black; }
 
 .galeria-productos {
   display: flex;
@@ -77,10 +77,17 @@
   height: 250px; }
 
 .card {
-  background-color: color #ced4da; }
+  background-color: #7eb5ec;
+  width: 287px;
+  height: 460px;
+  margin-top: 10px;
+  background-color: aquamarine !important; }
 
 .card:hover {
-  border: 2px solid black; }
+  border: 1px solid black; }
+
+.row {
+  overflow: hidden; }
 
 form.formulario {
   display: flex;
@@ -101,6 +108,66 @@ iframe.formulario_iframe {
   text-align: center;
   background-color: whitesmoke; }
 
+.Body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center; }
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px; }
+
+.container2 {
+  position: relative;
+  width: 400px;
+  height: 400px; }
+
+.container .cara {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.container .cara span {
+  width: 100px;
+  height: 100%;
+  transition: .5s; }
+
+.container .cara1 span {
+  background: url("https://i.ibb.co/kGnqHLB/Beach-ge3d355255-1920-1.jpg");
+  transform-origin: top; }
+
+.container:hover .cara1 span {
+  transform: rotateX(90deg) translateY(50%); }
+
+.container .cara2 span {
+  background: url("https://i.ibb.co/zxyy0Rr/Carrucel1-2.jpg");
+  transform-origin: bottom;
+  transform: rotateX(90deg) translateY(50%); }
+
+.container:hover .cara2 span {
+  transform: rotateX(0deg) translateY(0); }
+
+.container .cara span:nth-child(1) {
+  background-position-x: 0;
+  transition-delay: 0s; }
+
+.container .cara span:nth-child(2) {
+  background-position-x: -100px;
+  transition-delay: .1s; }
+
+.container .cara span:nth-child(3) {
+  background-position-x: -200px;
+  transition-delay: .2s; }
+
+.container .cara span:nth-child(4) {
+  background-position-x: -300px;
+  transition-delay: .3s; }
+
 @media (min-width: 320px) {
   .body_li {
     display: flex;
@@ -109,7 +176,9 @@ iframe.formulario_iframe {
     background-color: azure;
     color: black;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .row {
+    margin: 0 !important; } }
 
 @media (min-width: 768px) {
   .body_li {
@@ -125,6 +194,3 @@ iframe.formulario_iframe {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
-
-.accordion-item {
-  background-color: cadetblue !important; }
