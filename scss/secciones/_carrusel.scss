@@ -1,85 +1,222 @@
-// .w-100 {
-//     width: 80%!important;
-//     position: relative;
-//     left: 10%;
-// }
-// .carousel-inner {
-//     position: relative;
-//     width: 80%!important;
-//     left: 8%;
-// }
-
-// .carousel-control-prev {
-//     left: 135px;
-// }
-// .carousel-control-next {
-//     right: 187px;
-// }
-// .carousel {
-//     position: relative;
-//     background-color:   lightblue;
-// }
-
-
-.Body{
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+.Body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.container{
-    position: relative;
-    width: 400px;
-    height: 400px;
+// contenedor0
+.container {
+  position: relative;
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  left: -25%;
+
 }
-.container2{
-    position: relative;
-    width: 400px;
-    height: 400px;
+// contenedor1
+.container1 {
+  position: relative;
+  left: 56%;
+  top: -403px;
+  width: 400px;
+  height: 400px;
+  
 }
-.container  .cara{
+// contenedor2
+.container2 {
+  position: relative;
+  left: 56%;
+  top: -388px;
+  width: 400px;
+  height: 400px;
+  
+}
+// contenedor3
+.container3 {
+  position: relative;
+  left: 136px;
+  top: -786px;
+  width: 400px;
+  height: 400px;
+}
+  // contenedor0
+  .container .cara {
     display: flex;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 100%;
     height: 100%;
-}
-.container .cara span{
+  }
+  .container .cara span {
     width: 100px;
     height: 100%;
-    transition: .5s;
-}
-
-.container .cara1 span{
-    background: url("https://i.ibb.co/kGnqHLB/Beach-ge3d355255-1920-1.jpg");
+    transition: 0.5s;
+  }
+  .container .cara1 span {
+    background: url("https://i.ibb.co/J7tN3qH/Carrucel1-2.jpg");
     transform-origin: top;
-}
-.container:hover .cara1 span{
-transform: rotateX(90deg) translateY(50%)
-}
-.container .cara2 span{
-    background: url("https://i.ibb.co/zxyy0Rr/Carrucel1-2.jpg");
+  }
+  .container:hover .cara1 span {
+    transform: rotateX(90deg) translateY(-50%);
+  }
+  .container .cara2 span {
+    background: url("https://i.ibb.co/BjhXtns/Carrucel-1.jpg");
     transform-origin: bottom;
     transform: rotateX(90deg) translateY(50%);
-}
-
-.container:hover .cara2 span{
+  }
+  .container:hover .cara2 span {
     transform: rotateX(0deg) translateY(0);
-}
-.container .cara span:nth-child(1){
+  }
+  .container .cara span:nth-child(1) {
     background-position-x: 0;
     transition-delay: 0s;
-}
-.container .cara span:nth-child(2){
+  }
+  .container .cara span:nth-child(2) {
     background-position-x: -100px;
-    transition-delay: .1s;
-}
-.container .cara span:nth-child(3){
+    transition-delay: 0.1s;
+  }
+  .container .cara span:nth-child(3) {
     background-position-x: -200px;
-    transition-delay: .2s;
-}
-.container  .cara span:nth-child(4){
+    transition-delay: 0.2s;
+  }
+  .container .cara span:nth-child(4) {
     background-position-x: -300px;
-    transition-delay: .3s;
+    transition-delay: 0.3s;
+  }
+
+  // contenedor1
+
+  .container1 .cara {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .container1 .cara span {
+    width: 100px;
+    height: 100%;
+    transition: 0.5s;
+  }
+  .container1 .cara1 span {
+    background: url("https://i.ibb.co/J7tN3qH/Carrucel1-2.jpg");
+    transform-origin: top;
+  }
+  .container1:hover .cara1 span {
+    transform: rotateX(90deg) translateY(-50%);
+  }
+  .container1 .cara2 span {
+    background: url("https://i.ibb.co/BjhXtns/Carrucel-1.jpg");
+    transform-origin: bottom;
+    transform: rotateX(90deg) translateY(50%);
+  }
+  .container1:hover .cara2 span {
+    transform: rotateX(0deg) translateY(0);
+  }
+  .container1 .cara span:nth-child(1) {
+    background-position-x: 0;
+    transition-delay: 0s;
+  }
+  .container1 .cara span:nth-child(2) {
+    background-position-x: -100px;
+    transition-delay: 0.1s;
+  }
+  .container1 .cara span:nth-child(3) {
+    background-position-x: -200px;
+    transition-delay: 0.2s;
+  }
+  .container1 .cara span:nth-child(4) {
+    background-position-x: -300px;
+    transition-delay: 0.3s;
+  }
+  // contenedor2
+  .container2 .cara {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .container2 .cara span {
+    width: 100px;
+    height: 100%;
+    transition: 0.5s;
+  }
+  .container2 .cara1 span {
+    background: url("https://i.ibb.co/J7tN3qH/Carrucel1-2.jpg");
+    transform-origin: top;
+  }
+  .container2:hover .cara1 span {
+    transform: rotateX(90deg) translateY(-50%);
+  }
+  .container2 .cara2 span {
+    background: url("https://i.ibb.co/BjhXtns/Carrucel-1.jpg");
+    transform-origin: bottom;
+    transform: rotateX(90deg) translateY(50%);
+  }
+  .container2:hover .cara2 span {
+    transform: rotateX(0deg) translateY(0);
+  }
+  .container2 .cara span:nth-child(1) {
+    background-position-x: 0;
+    transition-delay: 0s;
+  }
+  .container2 .cara span:nth-child(2) {
+    background-position-x: -100px;
+    transition-delay: 0.1s;
+  }
+  .container2 .cara span:nth-child(3) {
+    background-position-x: -200px;
+    transition-delay: 0.2s;
+  }
+  .container2 .cara span:nth-child(4) {
+    background-position-x: -300px;
+    transition-delay: 0.3s;
+  }
+  // contenedor3
+  .container3 .cara {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .container3 .cara span {
+    width: 100px;
+    height: 100%;
+    transition: 0.5s;
+  }
+  .container3 .cara1 span {
+    background: url("https://i.ibb.co/J7tN3qH/Carrucel1-2.jpg");
+    transform-origin: top;
+  }
+  .container3:hover .cara1 span {
+    transform: rotateX(90deg) translateY(-50%);
+  }
+  .container3 .cara2 span {
+    background: url("https://i.ibb.co/BjhXtns/Carrucel-1.jpg");
+    transform-origin: bottom;
+    transform: rotateX(90deg) translateY(50%);
+  }
+  .container3:hover .cara2 span {
+    transform: rotateX(0deg) translateY(0);
+  }
+  .container3 .cara span:nth-child(1) {
+    background-position-x: 0;
+    transition-delay: 0s;
+  }
+  .container3 .cara span:nth-child(2) {
+    background-position-x: -100px;
+    transition-delay: 0.1s;
+  }
+  .container3 .cara span:nth-child(3) {
+    background-position-x: -200px;
+    transition-delay: 0.2s;
+  }
+  .container3 .cara span:nth-child(4) {
+    background-position-x: -300px;
+    transition-delay: 0.3s;
 }

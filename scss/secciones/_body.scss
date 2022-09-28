@@ -4,8 +4,10 @@
         justify-content: space-around;
         background-color:$bodyli;
         color: black;
+        position: relative; 
     }
 
 .body {
-    background-color:$body;
-}
+    background-color:aqua!important;
+    height: 100vh!important;
+}    
