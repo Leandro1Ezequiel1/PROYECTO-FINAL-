@@ -3,12 +3,12 @@
     height: 100%;
     margin: 4px;
     padding: 9px;
-    background-color: #cbcbcb;
+    
 }
 
 .galeria{
 width: 100%;
-background-color: #cbcbcb;
+
 }
 .section_img:hover{
     border: 1px solid black;
@@ -19,5 +19,5 @@ flex-wrap: wrap;
 align-content: stretch;
 justify-content: space-around;
 align-items: center;
-background-color: honeydew;
+background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important;
 }

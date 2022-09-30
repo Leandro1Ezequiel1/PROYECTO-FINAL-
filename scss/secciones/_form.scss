@@ -4,7 +4,7 @@ form.formulario {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gainsboro;
+    background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important;
     border-radius: 3px solid black;
 }
 form.formulario:hover{

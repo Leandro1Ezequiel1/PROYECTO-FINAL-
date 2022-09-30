@@ -1,3 +1,29 @@
+.galeria-index {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -823px;
+  left: 20px; }
+
+.galeria-index2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  left: 976px;
+  top: -540px;
+  position: relative; }
+
+.galeria-index .img {
+  width: 200px;
+  height: 200px; }
+
+.galeria-index2 .img {
+  width: 200px;
+  height: 200px; }
+
 .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: center;
@@ -19,9 +45,8 @@
   color: black;
   position: relative; }
 
-.body {
-  background-color: aqua !important;
-  height: 100vh !important; }
+body {
+  background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important; }
 
 .footer_logo-wp {
   width: 100px;
@@ -54,12 +79,10 @@
   width: 100%;
   height: 100%;
   margin: 4px;
-  padding: 9px;
-  background-color: #cbcbcb; }
+  padding: 9px; }
 
 .galeria {
-  width: 100%;
-  background-color: #cbcbcb; }
+  width: 100%; }
 
 .section_img:hover {
   border: 1px solid black; }
@@ -70,7 +93,7 @@
   align-content: stretch;
   justify-content: space-around;
   align-items: center;
-  background-color: honeydew; }
+  background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important; }
 
 .card-img-top {
   width: 285px;
@@ -95,7 +118,7 @@ form.formulario {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: gainsboro;
+  background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important;
   border-radius: 3px solid black; }
 
 form.formulario:hover {
@@ -126,7 +149,8 @@ iframe.formulario_iframe {
   margin-top: 20px;
   width: 400px;
   height: 384px;
-  left: 475px;
+  left: 347px;
+  top: 8px;
   margin-bottom: 20px; }
 
 .container-a .cara-a {
