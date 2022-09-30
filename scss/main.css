@@ -20,10 +20,12 @@
   justify-content: space-around;
   background-color: color azure;
   color: black;
+  position: relative;
 }
 
 .body {
-  background-color: color lavender !important;
+  background-color: aqua !important;
+  height: 100vh !important;
 }
 
 .footer_logo-wp {
@@ -53,8 +55,6 @@
   text-align: center;
   background-color: #9898b9;
   height: 182px;
-  position: relative;
-  top: 6px;
 }
 
 .footer_h3 {
@@ -131,32 +131,52 @@ iframe.formulario_iframe {
   background-color: whitesmoke;
 }
 
-.Body {
+.body {
   display: flex;
-  height: 100vh;
+  width: 100vh;
   align-items: center;
   justify-content: center;
 }
 
 .container {
   position: relative;
+  margin-top: 20px;
   width: 400px;
   height: 400px;
+  margin-bottom: 20px;
 }
 
-.container2 {
+.container-a {
   position: relative;
+  margin-top: 20px;
   width: 400px;
-  height: 400px;
+  height: 384px;
+  left: 475px;
+  margin-bottom: 20px;
+}
+
+.container-a .cara-a {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .container .cara {
   display: flex;
-  position: relative;
-  top: 20px;
-  left: -348px;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+}
+
+.container-a .cara-a span {
+  width: 100px;
+  height: 100%;
+  transition: 0.5s;
 }
 
 .container .cara span {
@@ -165,23 +185,62 @@ iframe.formulario_iframe {
   transition: 0.5s;
 }
 
-.container .cara1 span {
-  background: url("https://i.ibb.co/kGnqHLB/Beach-ge3d355255-1920-1.jpg");
+.container-a .cara1-a span {
+  background: url("https://i.ibb.co/m6Hw2WJ/Carrucel1-16.jpg");
   transform-origin: top;
 }
 
-.container:hover .cara1 span {
-  transform: rotateX(90deg) translateY(50%);
+.container .cara1 span {
+  background: url("https://i.ibb.co/J7tN3qH/Carrucel1-2.jpg");
+  transform-origin: top;
 }
 
-.container .cara2 span {
-  background: url("https://i.ibb.co/zxyy0Rr/Carrucel1-2.jpg");
+.container-a:hover .cara1-a span {
+  transform: rotateX(90deg) translateY(-50%);
+}
+
+.container:hover .cara1 span {
+  transform: rotateX(90deg) translateY(-50%);
+}
+
+.container-a .cara2-a span {
+  background: url("https://i.ibb.co/6YHfmk8/Carrucel1-17.jpg");
   transform-origin: bottom;
   transform: rotateX(90deg) translateY(50%);
 }
 
+.container .cara2 span {
+  background: url("https://i.ibb.co/BjhXtns/Carrucel-1.jpg");
+  transform-origin: bottom;
+  transform: rotateX(90deg) translateY(50%);
+}
+
+.container-a:hover .cara2-a span {
+  transform: rotateX(0) translateY(0);
+}
+
 .container:hover .cara2 span {
-  transform: rotateX(0deg) translateY(0);
+  transform: rotateX(0) translateY(0);
+}
+
+.container-a .cara-a span:nth-child(1) {
+  background-position-x: 0;
+  transition-delay: 0s;
+}
+
+.container-a .cara-a span:nth-child(2) {
+  background-position-x: -100px;
+  transition-delay: 0.1s;
+}
+
+.container-a .cara-a span:nth-child(3) {
+  background-position-x: -200px;
+  transition-delay: 0.2s;
+}
+
+.container-a .cara-a span:nth-child(4) {
+  background-position-x: -300px;
+  transition-delay: 0.3s;
 }
 
 .container .cara span:nth-child(1) {
