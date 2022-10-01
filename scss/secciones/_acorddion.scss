@@ -1,0 +1,13 @@
+.accordion {
+    margin-bottom: 100px;
+    position: relative;
+    width: 50%;
+    background: linear-gradient(0.5turn, #f0f8ff, #f0f8ff, #9898b9) !important;
+    left: 25%;
+}
+.accordion-item {
+    background-color: dodgerblue;
+}
+button.accordion-button.collapsed {
+    background: linear-gradient(0.5turn, #f0f8ff, #9898b9) !important;
+}
