@@ -46,7 +46,7 @@
   position: relative; }
 
 body {
-  background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important; }
+  background: linear-gradient(0.5turn, #f0f8ff, #f0f8ff, #9898b9) !important; }
 
 .footer_logo-wp {
   width: 100px;
@@ -92,8 +92,7 @@ body {
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: space-around;
-  align-items: center;
-  background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important; }
+  align-items: center; }
 
 .card-img-top {
   width: 285px;
@@ -118,7 +117,6 @@ form.formulario {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important;
   border-radius: 3px solid black; }
 
 form.formulario:hover {
@@ -130,6 +128,9 @@ iframe.formulario_iframe {
 .formulario_h4 {
   text-align: center;
   background-color: whitesmoke; }
+
+.accordion {
+  background: linear-gradient(0.5turn, #f0f8ff, #f0f8ff, #9898b9) !important; }
 
 .body {
   display: flex;
@@ -149,7 +150,7 @@ iframe.formulario_iframe {
   margin-top: 20px;
   width: 400px;
   height: 384px;
-  left: 347px;
+  left: 475px;
   top: 8px;
   margin-bottom: 20px; }
 
@@ -241,7 +242,39 @@ iframe.formulario_iframe {
   background-position-x: -300px;
   transition-delay: .3s; }
 
+.index-1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px; }
+
 @media (min-width: 320px) {
+  form.formulario {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px solid black;
+    left: 44px; }
+  iframe.formulario_iframe {
+    position: relative;
+    width: 399px; }
+  .galeria-productos {
+    left: 50px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center; }
+  .footer {
+    text-align: center;
+    background-color: #9898b9;
+    height: 182px;
+    width: 400px; }
   .body_li {
     display: flex;
     list-style: none;
@@ -249,11 +282,48 @@ iframe.formulario_iframe {
     background-color: azure;
     color: black;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    width: 400px; }
   .row {
-    margin: 0 !important; } }
+    position: relative;
+    display: flex;
+    margin: 0 !important;
+    left: 40px;
+    flex-wrap: wrap;
+    align-items: baseline; } }
+
+.container-a {
+  position: relative;
+  margin-top: 20px;
+  width: 400px;
+  height: 384px;
+  left: 0px;
+  top: 8px;
+  margin-bottom: 20px; }
+
+.body {
+  background-color: #f3d1a4 !important; }
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #f0f8ff !important;
+  width: 400px; }
 
 @media (min-width: 768px) {
+  iframe.formulario_iframe {
+    position: relative;
+    width: 768px; }
+  .galeria-productos {
+    left: 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center; }
+  .body {
+    background-color: #f3d1a4 !important; }
   .body_li {
     display: flex;
     list-style: none;
@@ -261,7 +331,144 @@ iframe.formulario_iframe {
     background-color: azure;
     color: black;
     flex-direction: row;
-    align-items: center; } }
+    align-items: center; }
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #f0f8ff !important;
+    width: 768px; }
+  .container-a {
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    height: 384px;
+    left: 184px;
+    top: 8px;
+    margin-bottom: 20px; }
+  .body_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    width: 768px; }
+  .footer {
+    text-align: center;
+    background-color: #9898b9;
+    height: 182px;
+    width: 768px; } }
+
+@media (min-width: 1024px) {
+  iframe.formulario_iframe {
+    position: relative;
+    width: 1024px; }
+  form.formulario {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    left: 0px; }
+  .row {
+    position: relative;
+    display: flex;
+    margin: 0 !important;
+    left: -2px;
+    flex-wrap: wrap;
+    align-items: baseline; }
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #f0f8ff !important;
+    width: 1024px; }
+  .container-a {
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    height: 384px;
+    left: 311px;
+    top: 8px;
+    margin-bottom: 20px; }
+  .body_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    width: 1024px; }
+  .footer {
+    text-align: center;
+    background-color: #9898b9;
+    height: 182px;
+    width: 1024px; } }
+
+@media (min-width: 1440px) {
+  iframe.formulario_iframe {
+    position: relative;
+    width: 1347px; }
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #f0f8ff !important;
+    width: 1440px; }
+  .container-a {
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    height: 384px;
+    left: 520px;
+    top: 8px;
+    margin-bottom: 20px; }
+  .body_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    width: 1440px; }
+  .footer {
+    text-align: center;
+    background-color: #9898b9;
+    height: 182px;
+    width: 1440px; } }
+
+@media (min-width: 1366px) {
+  iframe.formulario_iframe {
+    position: relative;
+    width: 1349px; }
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #f0f8ff !important;
+    width: 1349px; }
+  .container-a {
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    height: 384px;
+    left: 475px;
+    top: 8px;
+    margin-bottom: 20px; }
+  .body_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    width: 1349px; }
+  .footer {
+    text-align: center;
+    background-color: #9898b9;
+    height: 182px;
+    width: 1349px; } }
 
 * {
   padding: 0;

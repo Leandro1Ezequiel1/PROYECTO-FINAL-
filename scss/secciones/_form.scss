@@ -4,7 +4,6 @@ form.formulario {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(289deg, #f0f8ff, #7fffd4, #8b8bcb) !important;
     border-radius: 3px solid black;
 }
 form.formulario:hover{
@@ -17,4 +16,7 @@ iframe.formulario_iframe {
     text-align: center;
     background-color: whitesmoke;
 
+}
+.accordion{
+    background: linear-gradient(0.50turn,#f0f8ff,#f0f8ff,#9898b9)!important;
 }
